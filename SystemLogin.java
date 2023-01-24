@@ -1,9 +1,9 @@
 import javax.swing.*;
 
-public class FileThree {
+public class System {
 
     public static void main(String[] args) {
-        FileThree obLog = new FileThree(); //making an object to call the login
+        SystemLogin obLog = new SystemLogin(); //making an object to call the login
                 String[] options = {"Instructions & Manual", "Login"}; //interface options
         int WelcomeMsg = JOptionPane.showOptionDialog(null, "Welcome to AIU Grading System",
                 "AIU System by SaifAlmajd",
@@ -28,7 +28,7 @@ public class FileThree {
 
     int option = JOptionPane.showConfirmDialog(null, message, "Login", JOptionPane.OK_CANCEL_OPTION);
     if (option == JOptionPane.OK_OPTION) {
-        if (username.getText().equals("DrBashear") && password.getText().equals("Admin2022")) {// check login detials
+        if (username.getText().equals("SaifAlmajd") && password.getText().equals("Admin2022")) {// check login detials
             JOptionPane.showMessageDialog(null, "Login Successful, Welcome " + username.getText()); // print login Successful and name
             AIUSystem.registration();//calling the registation to start system
         } else {
