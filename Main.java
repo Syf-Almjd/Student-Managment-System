@@ -3,7 +3,7 @@ import javax.swing.*;
 public class System {
 
     public static void main(String[] args) {
-        SystemLogin obLog = new SystemLogin(); //making an object to call the login
+        Main obLog = new Main(); //making an object to call the login
                 String[] options = {"Instructions & Manual", "Login"}; //interface options
         int WelcomeMsg = JOptionPane.showOptionDialog(null, "Welcome to AIU Grading System",
                 "AIU System by SaifAlmajd",
